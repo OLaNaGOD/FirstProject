@@ -1,0 +1,63 @@
+{
+    "intExample": 5,
+    "strExample": "Hello!",
+    "boolExample": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "idSave": 13772,
+    "currentLvl": 1,
+    "maxLvl": 1,
+    "levelKillList": [],
+    "currentTree": 3.0,
+    "itemsCount": 0,
+    "lvlItem": [],
+    "lvlAwakening": [],
+    "abilities": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "abilitiesCooldown": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "achivments": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "ascensionLvl": 1,
+    "serverTime": 1771610633770,
+    "deathEnemyCount": 0,
+    "bestLvlItem": 0,
+    "bestAwakeningLvl": 0,
+    "deathBossCount": 0,
+    "abilityCount": 0
+}

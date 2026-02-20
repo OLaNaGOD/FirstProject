@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4504db9a827094799278266c2351df, type: 3}
+  m_Name: ShopButtonSA
+  m_EditorClassIdentifier: Assembly-CSharp::ShopButtonSA
+  shopItems:
+  - Type: 1
+    name_ru: "\u0422\u043E\u043F\u043E\u0440"
+    name_en: Axe
+    _sprite: {fileID: 1559704157218881296, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0414\u0435\u0440\u0435\u0432\u044F\u043D\u043D\u044B\u0439 \u043D\u043E\u0436-\u0441\u043A\u043E\u0431\u0435\u043B\u044C"
+    name_en: Wooden knife-chisel
+    _sprite: {fileID: -8309643413193770608, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041A\u0430\u043C\u0435\u043D\u043D\u044B\u0439 \u0441\u0442\u0440\u0443\u0433"
+    name_en: Stone plane
+    _sprite: {fileID: 8699069900992395679, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041A\u043E\u0441\u0442\u044F\u043D\u043E\u0439 \u043A\u043E\u0440\u043E\u043E\u0431\u0440\u0435\u0437"
+    name_en: Bone scraper
+    _sprite: {fileID: 7155652846937496742, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0412\u0435\u0440\u0451\u0432\u043E\u0447\u043D\u044B\u0439 \u043A\u043E\u0440\u043D\u0435-\u0442\u044F\u0433\u0430\u0447"
+    name_en: Rope root puller
+    _sprite: {fileID: 8229741558245047171, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0420\u0443\u0447\u043D\u0430\u044F \u043C\u043E\u0442\u044B\u0436\u043A\u0430-\u0440\u044B\u0445\u043B\u0438\u0442\u0435\u043B\u044C"
+    name_en: Hand hoe-cultivator
+    _sprite: {fileID: -9166200356469041071, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0420\u0443\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043D\u043E\u0436"
+    name_en: Runic knife
+    _sprite: {fileID: -8309643413193770608, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041D\u043E\u0436-\u043A\u0440\u0438\u0432\u0435\u0446 \u0441 \u0437\u0443\u0431\u044C\u044F\u043C\u0438"
+    name_en: Knife-crook with teeth
+    _sprite: {fileID: 7811721685257397968, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041C\u0430\u043B\u044B\u0439 \u0446\u0435\u043F\u043D\u043E\u0439
+      \u0440\u0435\u0437\u0430\u043A"
+    name_en: Small chain cutter
+    _sprite: {fileID: 8285091835809268112, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041A\u043E\u043B\u0443\u043D-\u043A\u0430\u0447\u0430\u043B\u043A\u0430"
+    name_en: Rocking cleaver
+    _sprite: {fileID: -5651667117540000442, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0420\u044B\u0447\u0430\u0436\u043D\u0430\u044F \u043F\u0438\u043B\u043A\u0430"
+    name_en: Lever file
+    _sprite: {fileID: -699345051048265687, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0428\u0435\u0441\u0442\u0435\u0440\u0451\u043D\u043D\u044B\u0439
+      \u043A\u043E\u0440\u043D\u0435-\u0440\u0435\u0437"
+    name_en: Gear root cutter
+    _sprite: {fileID: 5292716684467120071, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041C\u0435\u0445\u0430\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0441\u0442\u0440\u0443\u0436\u043A\u043E\u0440\u0435\u0437"
+    name_en: Mechanical shaver
+    _sprite: {fileID: 3424674198401663528, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041A\u043E\u043B\u0443\u043D \u043D\u0430 \u043C\u0430\u044F\u0442\u043D\u0438\u043A\u0435"
+    name_en: Pendulum splitter
+    _sprite: {fileID: -815456381808828490, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0420\u043E\u0442\u043E\u0440\u043D\u044B\u0439 \u0437\u0443\u0431\u0447\u0430\u0442\u044B\u0439
+      \u0431\u0443\u0440"
+    name_en: Rotary toothed drill
+    _sprite: {fileID: 5057083826121893730, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041A\u043E\u043D\u0443\u0441\u043D\u0430\u044F \u0441\u0442\u0440\u0443\u0436\u0435\u0447\u043D\u0430\u044F
+      \u043C\u0435\u043B\u044C\u043D\u0438\u0446\u0430"
+    name_en: Cone shaving mill
+    _sprite: {fileID: -6091771898237071071, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041F\u0430\u0440\u043E\u0432\u043E\u0439 \u0434\u0440\u0435\u0432\u0435\u0441\u043D\u044B\u0439
+      \u043C\u043E\u043B\u043E\u0442"
+    name_en: Steam wood hammer
+    _sprite: {fileID: 7413330658570089919, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041C\u043D\u043E\u0433\u043E\u0434\u0438\u0441\u043A\u043E\u0432\u044B\u0439
+      \u0440\u0435\u0437\u0447\u0438\u043A"
+    name_en: Multi-disc cutter
+    _sprite: {fileID: -5071881493542880123, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0410\u0432\u0442\u043E-\u043A\u043E\u0433\u0442\u0435\u0432\u043E\u0439
+      \u0440\u0430\u0437\u0434\u0438\u0440\u0430\u0442\u0435\u043B\u044C"
+    name_en: Auto claw ripper
+    _sprite: {fileID: 7982943374256336594, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0411\u0435\u043D\u0437\u043E-\u043D\u0430\u0440\u0435\u0437\u0447\u0438\u043A
+      \u201C\u0420\u0435\u043A\u0430 \u0417\u0443\u0431\u044C\u0435\u0432\u201D"
+    name_en: "Gasoline cutter \u201CRiver of Teeth\u201D"
+    _sprite: {fileID: 7287276296837648497, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0422\u0443\u0440\u0431\u043E-\u0446\u0435\u043F\u043D\u043E\u0439
+      \u043A\u043E\u043C\u0431\u0430\u0439\u043D"
+    name_en: Turbo chain harvester
+    _sprite: {fileID: -5909169101102207306, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0413\u0438\u0434\u0440\u0430\u0432\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u043A\u043E\u0440\u043D\u0435-\u0434\u0440\u043E\u0431\u0438\u0442\u0435\u043B\u044C"
+    name_en: Hydraulic root crusher
+    _sprite: {fileID: 4414963918506299381, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041F\u0440\u0435\u0441\u0441-\u044D\u043A\u0441\u0442\u0440\u0430\u043A\u0442\u043E\u0440
+      \u0434\u0440\u0435\u0432\u0435\u0441\u043D\u043E\u0433\u043E \u044F\u0434\u0440\u0430"
+    name_en: Wood core press extractor
+    _sprite: {fileID: -3543540175793387968, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041B\u0430\u0437\u0435\u0440\u043D\u044B\u0439 \u0434\u0440\u0435\u0432\u0435\u0441\u043D\u044B\u0439
+      \u043F\u0435\u0440\u0444\u043E\u0440\u0435\u0440"
+    name_en: Laser wood perforator
+    _sprite: {fileID: 8991386994272774482, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041F\u043B\u0430\u0437\u043C\u0435\u043D\u043D\u044B\u0439 \u0431\u0438\u043E-\u0440\u0435\u0437\u0430\u043A"
+    name_en: Plasma bio-cutter
+    _sprite: {fileID: 2060741816729373541, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041A\u0432\u0430\u043D\u0442\u043E\u0432\u044B\u0439 \u043A\u043B\u0435\u0442\u043E\u0447\u043D\u044B\u0439
+      \u043D\u043E\u0436"
+    name_en: Quantum Cell Knife
+    _sprite: {fileID: 1452002999948585783, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0416\u0438\u0432\u043E\u0439 \u043B\u043E\u0437\u043E\u0432\u044B\u0439
+      \u043F\u0435\u0440\u0435\u043F\u0438\u043B"
+    name_en: Living Vine Saw
+    _sprite: {fileID: 3422740019572470903, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0440\u0443\u043D\u043E\u0440\u0435\u0437 \u0434\u0440\u0435\u0432\u0435\u0441\u043D\u043E\u0439
+      \u0441\u0443\u0442\u0438"
+    name_en: Crystalline Wood Essence Shear
+    _sprite: {fileID: 4620265161797326298, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0414\u0440\u0443\u0438\u0434\u0441\u043A\u0438\u0439 \u0430\u0440\u0431\u043E-\u0440\u0430\u0437\u043B\u043E\u043C\u0449\u0438\u043A"
+    name_en: Druidic Arbo-Breaker
+    _sprite: {fileID: 961273174600758130, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
+  - Type: 0
+    name_ru: "\u0410\u0441\u0442\u0440\u0430\u043B\u044C\u043D\u044B\u0439 \u0434\u0440\u0435\u0432\u043E\u0434\u0435\u043B
+      \u044F\u0434\u0440\u0430 \u043B\u0435\u0441\u0430"
+    name_en: Astral Woodworker of the Forest Core
+    _sprite: {fileID: -4949332719376878076, guid: 6a2b57f608c9838409d5bea50e4e1b0a, type: 3}
